@@ -1,0 +1,40 @@
+$ ./a <Test3.java
+Line: 2,1st char: 1, "public" is a "reserved word".
+Line: 2,1st char: 8, "class" is a "reserved word".
+Line: 2,1st char: 14, "Test3" is an "ID".
+Line: 2,1st char: 20, "{" is a "symbol".
+Line: 3,1st char: 5, "int" is a "reserved word".
+Line: 3,1st char: 9, "A" is an "ID".
+Line: 3,1st char: 10, ";" is a "symbol".
+Line: 4,1st char: 5, "int" is a "reserved word".
+Line: 4,1st char: 9, "a" is an "ID".
+Line: 5,1st char: 5, "double" is a "reserved word".
+Line: 5,1st char: 12, "b" is an "ID".
+Line: 5,1st char: 13, ";" is a "symbol".
+Line: 6,1st char: 5, "double" is a "reserved word".
+Line: 6,1st char: 12, identifier "A" already existed
+Line: 6,1st char: 13, ";" is a "symbol".
+Line: 8,1st char: 5, "public" is a "reserved word".
+Line: 8,1st char: 12, "Test3" is an "ID".
+Line: 8,1st char: 17, "(" is a "symbol".
+Line: 8,1st char: 18, ")" is a "symbol".
+Line: 8,1st char: 20, "{" is a "symbol".
+Line: 9,1st char: 9, "a" is an "ID".
+Line: 9,1st char: 11, "=" is an "operator".
+Line: 9,1st char: 13, "1" is an "Interger".
+Line: 9,1st char: 14, ";" is a "symbol".
+Line: 10,1st char: 9, "A" is an "ID".
+Line: 10,1st char: 11, "=" is an "operator".
+Line: 10,1st char: 13, "2" is an "Interger".
+Line: 10,1st char: 14, ";" is a "symbol".
+Line: 11,1st char: 9, "b" is an "ID".
+Line: 11,1st char: 11, "=" is an "operator".
+Line: 11,1st char: 13, "-1.2" is a "real".
+Line: 11,1st char: 17, ";" is a "symbol".
+Line: 12,1st char: 5, "}" is a "symbol".
+Line: 13,1st char: 1, "}" is a "symbol".
+The symbol table contains :
+Test3   belong to :GLOBAL
+A       belong to :Test3
+a       belong to :Test3
+b       belong to :Test3

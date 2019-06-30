@@ -1,0 +1,32 @@
+$ ./a <Test2.java
+Line: 1,1st char: 1, "// this is a comment // line */ /* with /* delimiters */ before the end" is a "comment".
+Line: 3,1st char: 1, "public" is a "reserved word".
+Line: 3,1st char: 8, "class" is a "reserved word".
+Line: 3,1st char: 14, "Test2" is an "ID".
+Line: 3,1st char: 20, "{" is a "symbol".
+Line: 4,1st char: 5, "int" is a "reserved word".
+Line: 4,1st char: 9, "i" is an "ID".
+Line: 4,1st char: 11, "=" is an "operator".
+Line: 4,1st char: 13, "-100" is an "Interger".
+Line: 4,1st char: 17, ";" is a "symbol".
+Line: 5,1st char: 5, "double" is a "reserved word".
+Line: 5,1st char: 12, "d" is an "ID".
+Line: 5,1st char: 14, "=" is an "operator".
+Line: 5,1st char: 16, "12.25e+6" is a "real".
+Line: 5,1st char: 24, ";" is a "symbol".
+Line: 7,1st char: 5, "public" is a "reserved word".
+Line: 7,1st char: 12, "static" is a "reserved word".
+Line: 7,1st char: 19, "void" is a "reserved word".
+Line: 7,1st char: 24, "main" is a "reserved word".
+Line: 7,1st char: 28, "(" is a "symbol".
+Line: 7,1st char: 29, ")" is a "symbol".
+Line: 7,1st char: 31, "{" is a "symbol".
+Line: 8,1st char: 1, "/* this is a comment // line with some /* and
+// delimiters */" is a "comment".
+Line: 10,1st char: 5, "}" is a "symbol".
+Line: 11,1st char: 1, "}" is a "symbol".
+The symbol table contains :
+Test2   belong to :GLOBAL
+i       belong to :Test2
+d       belong to :Test2
+main    belong to :Test2

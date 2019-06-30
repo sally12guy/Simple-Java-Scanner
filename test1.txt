@@ -1,0 +1,82 @@
+$ ./a <Test1.java
+Line: 2,1st char: 1, "public" is a "reserved word".
+Line: 2,1st char: 8, "class" is a "reserved word".
+Line: 2,1st char: 14, "Test1" is an "ID".
+Line: 2,1st char: 20, "{" is a "symbol".
+Line: 3,1st char: 5, "public" is a "reserved word".
+Line: 3,1st char: 12, "static" is a "reserved word".
+Line: 3,1st char: 19, "int" is a "reserved word".
+Line: 3,1st char: 23, "add" is an "ID".
+Line: 3,1st char: 26, "(" is a "symbol".
+Line: 3,1st char: 27, "int" is a "reserved word".
+Line: 3,1st char: 31, "a" is an "ID".
+Line: 3,1st char: 32, "," is a "symbol".
+Line: 3,1st char: 34, "int" is a "reserved word".
+Line: 3,1st char: 38, "b" is an "ID".
+Line: 3,1st char: 39, ")" is a "symbol".
+Line: 3,1st char: 41, "{" is a "symbol".
+Line: 4,1st char: 9, "return" is a "reserved word".
+Line: 4,1st char: 16, "a" is an "ID".
+Line: 4,1st char: 18, "+" is an "operator".
+Line: 4,1st char: 20, "b" is an "ID".
+Line: 4,1st char: 21, ";" is a "symbol".
+Line: 5,1st char: 5, "}" is a "symbol".
+Line: 7,1st char: 5, "public" is a "reserved word".
+Line: 7,1st char: 12, "static" is a "reserved word".
+Line: 7,1st char: 19, "void" is a "reserved word".
+Line: 7,1st char: 24, "main" is a "reserved word".
+Line: 7,1st char: 28, "(" is a "symbol".
+Line: 7,1st char: 29, ")" is a "symbol".
+Line: 7,1st char: 31, "{" is a "symbol".
+Line: 9,1st char: 9, "int" is a "reserved word".
+Line: 9,1st char: 13, "c" is an "ID".
+Line: 9,1st char: 14, ";" is a "symbol".
+Line: 10,1st char: 9, "int" is a "reserved word".
+Line: 10,1st char: 13, "a" is an "ID".
+Line: 10,1st char: 15, "=" is an "operator".
+Line: 10,1st char: 17, "5" is an "Interger".
+Line: 10,1st char: 18, ";" is a "symbol".
+Line: 11,1st char: 9, "c" is an "ID".
+Line: 11,1st char: 11, "=" is an "operator".
+Line: 11,1st char: 13, "add" is an "ID".
+Line: 11,1st char: 16, "(" is a "symbol".
+Line: 11,1st char: 17, "a" is an "ID".
+Line: 11,1st char: 18, "," is a "symbol".
+Line: 11,1st char: 20, "10" is an "Interger".
+Line: 11,1st char: 22, ")" is a "symbol".
+Line: 11,1st char: 23, ";" is a "symbol".
+Line: 12,1st char: 9, "if" is a "reserved word".
+Line: 12,1st char: 12, "(" is a "symbol".
+Line: 12,1st char: 13, "c" is an "ID".
+Line: 12,1st char: 15, ">" is an "operator".
+Line: 12,1st char: 17, "10" is an "Interger".
+Line: 12,1st char: 19, ")" is a "symbol".
+Line: 13,1st char: 13, "print" is a "reserved word".
+Line: 13,1st char: 18, "(" is a "symbol".
+Line: 13,1st char: 20, "c = " is a "string".
+Line: 13,1st char: 26, "+" is an "operator".
+Line: 13,1st char: 28, "-" is an "operator".
+Line: 13,1st char: 29, "c" is an "ID".
+Line: 13,1st char: 30, ")" is a "symbol".
+Line: 13,1st char: 31, ";" is a "symbol".
+Line: 14,1st char: 9, "else" is a "reserved word".
+Line: 15,1st char: 13, "print" is a "reserved word".
+Line: 15,1st char: 18, "(" is a "symbol".
+Line: 15,1st char: 19, "c" is an "ID".
+Line: 15,1st char: 20, ")" is a "symbol".
+Line: 15,1st char: 21, ";" is a "symbol".
+Line: 16,1st char: 9, "print" is a "reserved word".
+Line: 16,1st char: 14, "(" is a "symbol".
+Line: 16,1st char: 16, "Hello World" is a "string".
+Line: 16,1st char: 28, ")" is a "symbol".
+Line: 16,1st char: 29, ";" is a "symbol".
+Line: 18,1st char: 5, "}" is a "symbol".
+Line: 20,1st char: 1, "}" is a "symbol".
+The symbol table contains :
+Test1   belong to :GLOBAL
+add     belong to :Test1
+a       belong to :add
+b       belong to :add
+main    belong to :Test1
+c       belong to :main
+a       belong to :main
